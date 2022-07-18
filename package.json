@@ -1,12 +1,15 @@
 {
   "name": "cra-template-awesome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "react",
     "create-react-app",
     "awesome",
     "template"
   ],
+  "resolutions": {
+    "**/**/nth-check": "^2.0.1"
+  },
   "description": "A awesome template to get you started with React in Typescript",
   "main": "template.json",
   "license": "MIT",
@@ -20,7 +23,7 @@
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
